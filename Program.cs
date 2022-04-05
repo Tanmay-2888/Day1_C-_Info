@@ -7,6 +7,7 @@ namespace Day1_C__Info
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Test");
         }
     }
 }
