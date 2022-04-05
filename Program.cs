@@ -8,6 +8,7 @@ namespace Day1_C__Info
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Test");
+            Console.WriteLine("Hello Siri");
         }
     }
 }
