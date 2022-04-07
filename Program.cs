@@ -2,12 +2,36 @@
 
 namespace Day1_C__Info
 {
+    public class student
+{
+    private int rollno, percentage;
+   private string name;
+    public student()
+    {
+        rollno=101;
+        name="Tanmay";
+        percentage=78;
+    }
+    public student(int rollno, string name, int percentage)
+    {
+        rollno =rollno;
+        name =name;
+        percentage =percentage;
+    }
+    public void display()
+    {
+        Console.WriteLine($"Info is:{rollno}/{name}/{percentage}");
+    }
+}
+
     class Program
     {
-        //private static int n;
+        
 
         static void Main(string[] args)
         {
+        student student=new student();
+            student.display();
           /* int a=10;
            float f=23.45f;
            double d= 56.677;
@@ -47,6 +71,7 @@ namespace Day1_C__Info
            }*/
 
          //Area of Rectangle  
+
         /*Console.WriteLine("Enter the Length of a Rectangle: ");
 
         int Length = Convert.ToInt32(Console.ReadLine());
@@ -60,6 +85,8 @@ namespace Day1_C__Info
         
         
         Console.ReadKey();*/
+
+
 
     //Sum of Even Number
 
@@ -103,6 +130,8 @@ namespace Day1_C__Info
 
             Console.WriteLine();*/
 
+
+
 // Check alphabet or digit,special character
 
 
@@ -131,6 +160,7 @@ namespace Day1_C__Info
  
         Console.ReadLine();*/
 
+
 // Check LeapYear or not
         /* Console.WriteLine("Enter Year : ");  
             int Year = int.Parse(Console.ReadLine());  
@@ -142,6 +172,8 @@ namespace Day1_C__Info
 
 
 // Check Number +ve, -ve or Zero
+
+
         /*     int num;
  
         Console.WriteLine("Enter any number: ");
@@ -166,7 +198,7 @@ namespace Day1_C__Info
 // Weekdays Check using Switch case
 
 
-        int day;
+       /* int day;
         
         Console.WriteLine("Enter the week day number : ");
 		day = Convert.ToInt32(Console.ReadLine());
@@ -197,7 +229,10 @@ namespace Day1_C__Info
 				Console.WriteLine("Invalid input");
 				break; 
 
-        } 
+        } */
+
+
+
 
 
 
